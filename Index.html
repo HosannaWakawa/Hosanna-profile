@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Node.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lumanosimo&family=REM:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Chokokutai&family=Moirai+One&family=Mynerve&family=Rubik+Gemstones&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/19589ebed2.js" crossorigin="anonymous"></script>
+    <title>Enaivoc</title>
+  </head>
+  <body>
+    <div id="fixed">
+    <header><h1 class="name-header"><span class="e-name">e</span><span class="n-name">n</span>aivoc</h1></header>
+    <div class="navigation"><span><button id="home" onclick="Home()"></button></span><span><button id="log-in" onclick="logIn()"></button></span><span><button id="learning" onclick="illumines()"></button></span></div>
+      <div class="reload-page-btn"><a href="index.html"><hr id="reload-page-btn" ></hr></a></div>
+      </div>
+    <div id="home-page">
+      <div class="create-space">hello</div>
+      <div id="video1"class="illustration"><video  autoplay poster="thumbnail1.png" id="v1" onplay="pauseV2()"><source src="illustration2.mp4" type="video/mp4"></video><button id="btn" onclick="playV1()"><i id="play1" class="fa-regular fa-circle-play"></i></button></div>
+      <div id="video2"class="illustration"><video  autoplay poster="task2.jpg" id="v2"  onplay="pauseV1()"><source src="illustration2.mp4" type="video/mp4"></video><button id="btn" onclick="playV2()"><i id="play2" class="fa-regular fa-circle-play"></i></button></div>
+      <button  id="start-btn" class="custom-btn" onclick="logIn()">
+        start
+      </button>
+      </div>
+      <div id="log-in-page">
+        <div class="create-space">hello</div>
+        <div id="sign-name"class="sign">log-in</div>
+        <div class="input-group">
+     <div class="input-field">
+       <form name="sign-form" action="App.html" method="get">
+       <i class="fa-regular fa-user"></i><input type="text" name="name" placeholder="name">
+     </div>
+       <div id="sign-in-password" class="input-field">
+       <i class="fa-solid fa-lock"></i><input type="password" name="password" placeholder=" password">
+       </div>
+   </div>
+      
+    <button type="submit" class="custom-btn"><a href="App.html"><i id="sign-fa" class="fa-solid fa-right-to-bracket"></i></a></button></form>
+        
+        <div></div>
+      </div>
+    <footer>
+      <div class="copyright">&copy;2023</div>
+    </footer>
+  </body>
+</html>

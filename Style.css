@@ -1,0 +1,281 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: white;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+#home-page{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#fixed{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  margin-top: 0%;
+}
+.header{
+  
+}
+header{
+  background: white;
+  width: 100%;
+  margin-top: 0%; 
+  margin-bottom: 0%;
+  padding: 4% 0% 1% 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background:rgb(0,230,233);
+  border-bottom: 10px solid rgb(221,242,242);
+  border-radius: 0px;
+}
+.name-header{
+  background: linear-gradient( to right,rgb(250,251,231),rgb(159,254,255),rgb(0,230,233) 70%);
+  background-size: 54px 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 127590% 9240% 19920%;border-right: 20px dotted rgb(0,230,233);
+  border-left: 3px dotted rgb(0,230,233);
+    border-top: 1.2px double rgb(0,230,233);
+    border-bottom: 3px solid rgb(0,230,233);
+  text-transform: lowercase;
+  font-family: 'aoboshi one', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(250,251,231);
+    margin: 0% 14% 1% 2%;
+    padding: 0% 2% 1% 20%;
+}
+.e-name{
+  font-family: 'rubik vinyl', cursive;
+  font-size: 25px;
+}
+.n-name{
+  font-family: 'rubik vinyl', cursive;
+  font-size: 25px;
+}
+.navigation{
+  border-top: .1px solid rgb(0,230,233);
+  margin-top: 0%;
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: white;
+  
+}
+.navigation button{
+  color: red;
+  height: 11.5px;
+  width: 23%;
+  background-color: white;
+  border: .5px groove #dddd;
+  border-radius: 7px;
+  margin: 3% 2.5% 2.5% 2.5%;
+}
+#home{
+  background-color: white;
+  border: .5px groove #dddd;
+}
+#log-in:hover{
+  background-color: rgb(232,235,235);
+        border: .5px solid #8a8a8a;
+}
+#learning:hover{
+  background-color: rgb(232,235,235);
+        border: .5px solid #8a8a8a;
+}
+.reload-page-btn{
+  background: white;
+}
+#reload-page-btn{
+  height: 11.5px;
+        width: 71%;
+        background-color: white;
+  border: .5px groove #dddd;
+        border-radius: 7px;
+        margin-bottom: 1%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 1.5%;
+}
+#reload-page-btn:hover{
+  background-color: rgb(232,235,235);
+        border: .5px solid #8a8a8a;
+}
+.create-space{
+  margin-bottom: 29%;
+}
+/**.illustration{
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}**/
+video{
+  width: 88.7%;
+  margin: 0;
+  margin-top: 3%;
+  padding: 0;
+  height: 193px;
+  border-radius: 8px;
+  border: 1px groove grey;
+  padding-top: -5px;
+  
+}
+#video2{
+  margin-top: 7%;
+}
+#video2{
+  margin-bottom: 9%;
+}
+.custom-btn{
+  background: rgb(0,230,233);
+  border-radius: 10px;
+  background-size: 1px 1px;
+    padding-left: 5%;
+    text-transform: uppercase;
+  font-family: "rubik vinyl",cursive;
+  color: rgb(0,20,100);
+    display: block;
+  font-size: 15px;
+  font-weight: 900;
+    /**padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding-right: 2%;**/
+    border-right: 45px dotted rgb(255,237,45);
+    border-left: 21px dotted rgb(255,34,87);
+    border-bottom: none;
+    border-top: none ;
+  width: 45%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+#start-btn{
+  margin-top: 12%;
+}
+
+
+.copyright{
+  margin-top: 0%;
+  font-family: "Lucida console","Courier New",monospace;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 3% 0;
+  }
+  #log-in-page{
+    
+  }
+  /**log-in-page**/
+.input-field{
+  border-radius: 8px;
+  border: 1px groove #d4d4d4;
+  width: 85%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  text-align: center;
+  padding-left: 2%;
+  max-height: 60px;
+  transition: max-height 0.8s;
+  overflow: hidden;
+  transition: transform ease-in 0.6s;
+  
+  
+}
+.input-field:hover{
+  background: rgb(231,254,254);
+  transform: translate(10px,-1px);
+  
+  
+}
+.input-group{
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+input{
+  width: 90%;
+  height: 53px;
+  font-family: "nunito sans",cursive;
+  font-size: 12px;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding-top: 1.5%;
+  background: none;
+  border: none;
+  padding-left: 3%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: black;
+}
+input:focus{
+  outline: none;
+  font-family: "aoboshi one",cursive;
+  color: black;
+  
+}
+input[type="Password"]{
+  
+  
+
+  
+}
+input[type="Password"]:focus{
+  font-family: 'nunito sans', sans-serif;
+}
+input[type="button"]{
+  padding-left: 5%;color: rgb(0,20,100);text-transform: uppercase;
+  font-family: "aoboshi one",cursive;
+  font-size: 14px;
+  font-weight: 900;
+}
+.sign{
+    font-family: "aoboshi one", cursive;
+   font-size: 17px;
+   font-weight: 600;
+   text-transform: lowercase;
+   margin-bottom: 2%;
+   margin-top: 33%;
+   
+}
+
+.input-field i{
+  color: rgb(77,77,77);
+  font-size: 15px;
+}
+#sign-fa{
+  font-size: 22px;
+  color: rgb(0,20,100);
+}
+#play1{
+  position: absolute;
+  top: 220px;
+  left: 172px;
+}
+#play2{
+  position: absolute;
+  top: 455px;
+  left: 172px;
+}
+ i{
+  color: white;
+  font-size: 39px;
+}
+  
+  
